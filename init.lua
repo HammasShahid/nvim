@@ -14,6 +14,7 @@ require "user.bufferline"
 require "user.toggleterm"
 require "user.illuminate"
 require "user.lualine"
+require "user.nvim-colorizer"
 -- require "user.nvim-surround"
 -- TO Checkout
 require "user.autocommands"

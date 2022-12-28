@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
     url = "https://github.com/lunarvim/darkplus.nvim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/home/archer/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -209,6 +214,11 @@ _G.packer_plugins = {
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-dap",
@@ -239,20 +249,10 @@ _G.packer_plugins = {
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
-  ["nvim-tundra"] = {
-    loaded = true,
-    path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-tundra",
-    url = "https://github.com/sam4llis/nvim-tundra"
-  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
-  },
-  ["oceanic-next"] = {
-    loaded = true,
-    path = "/home/archer/.local/share/nvim/site/pack/packer/start/oceanic-next",
-    url = "https://github.com/mhartington/oceanic-next"
   },
   ["onedark.vim"] = {
     loaded = true,

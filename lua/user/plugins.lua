@@ -61,6 +61,8 @@ return packer.startup(function(use)
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
   -- use "kylechui/nvim-surround" 
   use "tpope/vim-surround"
+  use "mattn/emmet-vim"
+  use "norcalli/nvim-colorizer.lua"
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
@@ -69,25 +71,25 @@ return packer.startup(function(use)
   -- use { "gruvbox-community/gruvbox" }
   use { "sainnhe/gruvbox-material",
 			-- config = function()
-				-- vim.o.termguicolors = true
-				-- vim.o.cursorline = true
-				-- vim.g.gruvbox_material_better_performance = 1
-				-- vim.g.gruvbox_material_diagnostic_virtual_text = "colored"
-				-- vim.g.gruvbox_material_diagnostic_text_highlight = 1
-				-- vim.g.gruvbox_material_diagnostic_line_highlight = 1
-				-- vim.g.gruvbox_material_ui_contrast = "high"
-				-- vim.cmd("colorscheme gruvbox-material")
+			-- 	vim.o.termguicolors = true
+			-- 	vim.o.cursorline = true
+			-- 	vim.g.gruvbox_material_better_performance = 1
+			-- 	vim.g.gruvbox_material_diagnostic_virtual_text = "colored"
+			-- 	vim.g.gruvbox_material_diagnostic_text_highlight = 1
+			-- 	vim.g.gruvbox_material_diagnostic_line_highlight = 1
+			-- 	vim.g.gruvbox_material_ui_contrast = "high"
+			-- 	vim.cmd("colorscheme gruvbox-material")
 			-- end,
   }
   use { "joshdick/onedark.vim" }
   use { "arcticicestudio/nord-vim" }
-  use { "mhartington/oceanic-next" }
+  -- use { "mhartington/oceanic-next" }
   use { "embark-theme/vim" }
   use { "projekt0n/github-nvim-theme" }
   -- use { "dracula/vim" }
   use { "bluz71/vim-nightfly-colors" }
   use { "haishanh/night-owl.vim" }
-  use { "sam4llis/nvim-tundra" }
+  -- use { "sam4llis/nvim-tundra" }
   use { "catppuccin/nvim", as = "catppuccin" } 
 
   -- cmp plugins
