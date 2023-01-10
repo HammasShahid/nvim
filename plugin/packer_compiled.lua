@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  Colorschemes = {
+    loaded = true,
+    path = "/home/archer/.local/share/nvim/site/pack/packer/start/Colorschemes",
+    url = "https://github.com/LunarVim/Colorschemes"
+  },
   ["Comment.nvim"] = {
     loaded = true,
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/Comment.nvim",
@@ -129,10 +134,10 @@ _G.packer_plugins = {
     path = "/home/archer/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["darkplus.nvim"] = {
+  ["codi.vim"] = {
     loaded = true,
-    path = "/home/archer/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/lunarvim/darkplus.nvim"
+    path = "/home/archer/.local/share/nvim/site/pack/packer/start/codi.vim",
+    url = "https://github.com/metakirby5/codi.vim"
   },
   ["emmet-vim"] = {
     loaded = true,
