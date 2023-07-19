@@ -18,11 +18,11 @@ else
     require "local.illuminate"
     require "local.lualine"
     require "local.nvim-colorizer"
-    -- TO Checkout
     require "local.autocommands"
     require "local.project"
-    require "local.dap"
     require "local.alpha"
+    -- TO Checkout
+    require "local.dap"
     require "local.impatient"
     require "local.indentline"
 end

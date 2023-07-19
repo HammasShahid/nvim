@@ -1,19 +1,9 @@
--- Enable Transparency
+-- Transparency
 local transparent_window = true
 
 -- Installed Colorscheme
--- local colorscheme = "catppuccin-mocha"
-local colorscheme = "tokyonight-moon"
--- local colorscheme = "gruvbox-material"
--- local colorscheme = "gruvbox"
--- local colorscheme = "nord"
--- local colorscheme = "onedark"
--- local colorscheme = "OceanicNext"
--- local colorscheme = "nightfly"
--- local colorscheme = "embark"
--- local colorscheme = "github_dimmed"
--- local colorscheme = "aurora"
--- local colorscheme = "darkplus"
+local colorscheme = "catppuccin-mocha"
+-- local colorscheme = "tokyonight-moon"
 -- local colorscheme = "rose-pine-main"
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
