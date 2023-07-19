@@ -68,8 +68,10 @@ return packer.startup(function(use)
         use "norcalli/nvim-colorizer.lua"
         use "metakirby5/codi.vim"
         use "easymotion/vim-easymotion" 
+        use "vimwiki/vimwiki"
 
         -- Colorschemes
+        use "https://github.com/dylanaraps/wal.vim"
         use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
         use { "morhetz/gruvbox" }
         use { "sainnhe/gruvbox-material" }
