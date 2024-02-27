@@ -7,6 +7,17 @@ local servers = {
 	"bashls",
 	"jsonls",
   "marksman",
+  "yamlls",
+  "tailwindcss",
+  "lua_ls",
+  "dockerls",
+  "docker_compose_language_service",
+  "grammarly",
+  "clangd",
+  "intelephense",
+  "ltex",
+  "spectral",
+  "ruff_lsp",
 }
 
 local settings = {
@@ -26,6 +37,16 @@ require("mason").setup(settings)
 require("mason-lspconfig").setup({
 	ensure_installed = servers,
 	automatic_installation = true,
+})
+require("mason-null-ls").setup({
+  ensure_installed = {
+    "prettier",
+    "black",
+    -- "flake8",
+    "ruff",
+    "stylua",
+    "eslint_d",
+  },
 })
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")

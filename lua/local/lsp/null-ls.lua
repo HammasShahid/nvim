@@ -3,10 +3,14 @@ if not null_ls_status_ok then
   return
 end
 
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
+-- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/formatting
 local formatting = null_ls.builtins.formatting
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
+-- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
 local diagnostics = null_ls.builtins.diagnostics
+-- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/completion
+local completion = null_ls.builtins.completion
+-- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/hover
+local hover = null_ls.builtins.hover
 
 -- https://github.com/prettier-solidity/prettier-plugin-solidity
 null_ls.setup {
@@ -20,6 +24,9 @@ null_ls.setup {
     formatting.stylua,
     formatting.google_java_format,
     formatting.phpcbf,
-    diagnostics.flake8,
+    completion.spell,
+    completion.tags,
+    hover.printenv,
+    hover.dictionary,
   },
 }
