@@ -18,6 +18,7 @@ local servers = {
   "ltex",
   "spectral",
   "ruff_lsp",
+  "prismals"
 }
 
 local settings = {
@@ -42,8 +43,9 @@ require("mason-null-ls").setup({
   ensure_installed = {
     "prettier",
     "black",
+    "shfmt",
     -- "flake8",
-    "ruff",
+    -- "ruff",
     "stylua",
     "eslint_d",
   },

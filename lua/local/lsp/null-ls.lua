@@ -24,6 +24,7 @@ null_ls.setup {
     formatting.stylua,
     formatting.google_java_format,
     formatting.phpcbf,
+    formatting.shfmt,
     completion.spell,
     completion.tags,
     hover.printenv,

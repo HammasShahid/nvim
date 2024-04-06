@@ -36,7 +36,7 @@ if vim.g.vscode then
     keymap("x", "<C-k>", function() vim.fn.VSCodeNotify("workbench.action.navigateUp") end, opts)
     keymap("n", "<leader>t1", function() vim.fn.VSCodeNotify("workbench.action.terminal.focusAtIndex1") end, opts)
     keymap("n", "<leader>t2", function() vim.fn.VSCodeNotify("workbench.action.terminal.focusAtIndex2") end, opts)
-    keymap("n", "<leader>c", function() vim.fn.VSCodeNotify("workbench.action.closeActiveEditor") end, opts)
+    keymap("n", "<S-q>", function() vim.fn.VSCodeNotify("workbench.action.closeActiveEditor") end, opts)
 
     -- Navigate tabs
     keymap("n", "<S-l>", function() vim.cmd("Tabnext") end, opts)
